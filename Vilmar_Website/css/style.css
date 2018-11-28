@@ -1,0 +1,51 @@
+
+
+
+body{
+
+	
+}
+	.mainNav {
+		background-color: #fe5f55;
+		position: fixed;
+		top: 0;
+		width: 100%;
+		z-index: 100;
+		text-align: center;
+		list-style: none;
+	}
+
+	.mainNav a{
+		color: white;
+		padding: 18px 20px;
+		padding:;
+		text-decoration: none;
+		font-family: 'Open Sans Condensed', sans-serif;
+		font-family: 15px;
+		display: inline-block;
+
+	}
+
+	.mainNav a:hover {
+				background-color: #f0b67f;
+	}
+
+	@media screen and (max-width: 600px){
+		.mainNav a{display: none;}
+		.mainNav a.icon {
+			float: right;
+			display: block;}
+	}
+
+	@media screen and (max-width: 600px){
+		.mainNav.responsive {position: relative;}
+		.mainNav.responsive .icon { 
+			position: absolute;
+			right: 0;
+			top: 0; }
+		.mainNav.responsive a{
+			float: none;
+			display: block;
+			text-align: center;}/* how links display*/
+			}
+
