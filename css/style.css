@@ -1,0 +1,85 @@
+
+
+
+body{
+	width: 90%;
+	margin: 0 auto;
+	font-family: 'Permanent Marker', cursive;
+
+	}
+
+main {
+	overflow: auto;
+}
+	.mainNav {
+		background-color: #f7ec66;
+		position: ;
+		top: 0;
+		width: 100%;
+		z-index: 100;
+		text-align: center;
+		list-style: none;
+	}
+
+	.mainNav a{
+		color: white;
+		padding: 0px 30px;
+		padding:;
+		text-decoration: none;
+		font-family: 'Permanent Marker', cursive;           
+		font-family: 15px;
+		display: inline-block;
+
+	}
+
+	.mainNav a:hover {
+		color: black;
+	}
+
+	@media screen and (max-width: 600px){
+		.mainNav a{display: none;}
+		.mainNav a.icon {
+			float: right;
+			display: block;}
+	}
+
+	@media screen and (max-width: 600px){
+		.mainNav.responsive {position: relative;}
+		.mainNav.responsive .icon { 
+			position: absolute;
+			right: 0;
+			top: 0; }
+		.mainNav.responsive a{
+			float: none;
+			display: block;
+			text-align: center;}/* how links display*/
+			}
+	#feature, article{
+		height: 250px;
+		margin-bottom: 1%;
+		background-color: #f7f142;
+		text-align: center;
+		padding: ;
+	}
+
+	#header{
+		background-color: #f7f142;
+		text-align: center;
+		padding:50px 80px;
+
+	}
+
+	.column1, .column2, .column3{
+		width: 31.3%;
+		float: left;
+		margin: 1%;
+		padding: ;
+		text-align: center;
+	}
+
+	#list {
+		width: 90%;
+		margin: 1%;
+		background-color: #efefef;
+		text-align: center;
+	}
