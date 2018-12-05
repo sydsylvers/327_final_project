@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Village Market</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+
+	<body class="bg_images";>
+
+		<main>
+
+		<nav class="mainNav" id="responsiveNav">
+			<a><h2 href="menu.html">Menu</h2></a>
+			<a><h2 href="groceries.html">Groceries</h2></a>
+			<a><h2 href="latenight.html">Late Night Favorites</h2></a>
+			<a><h2 href="about.html">About</h2></a>
+			<a href="javascript:void(0);" style="font-size:20px;"
+			class="icon" onclick="myFunction()">
+			&#9776;</a>
+
+		</nav>
+	<div class="logo">
+		<img src="images/VMarket.png"></img>
+	</div>
+
+	<div class="gif">
+	<img src="images/pizzagif.gif"></img>
+</div>
+
+
+	<script>
+function myFunction() {
+var x = document.getElementById("responsiveNav");
+if (x.className === "mainNav") {
+x.className += " responsive";
+} else {
+x.className = "mainNav";
+}
+}
+</script>
+</main>
+
+	</body>
+</html>
+
+
+
+
